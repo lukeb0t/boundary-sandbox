@@ -27,7 +27,7 @@ oidc_client_secret = var.oidc_client_secret
 oidc_client_id     = var.oidc_client_id
 oidc_subject2      = var.oidc_subject2
 oidc_subject1      = var.oidc_subject1
-enable_oidc = false
+enable_oidc = var.enable_oidc
 }
 
 module "northwind" {

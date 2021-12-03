@@ -19,5 +19,5 @@ variable "oidc_issuer" {
 }
 
 variable "enable_oidc" {
-
+default = false
 }
