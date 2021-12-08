@@ -16,9 +16,6 @@ kms "aead" {
 EOT
 }
 
-provider "docker" {
-  host = "unix:///var/run/docker.sock"
-}
 
 module "base_boundary" {
 source = "./base_boundary_config"
