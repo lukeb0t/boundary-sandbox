@@ -30,3 +30,5 @@ override.tf.json
 input.auto.tfvars
 .terraform.lock.hcl
 .vscode/settings.json
+vaul-cs-module/.DS_Store
+.gitignore
